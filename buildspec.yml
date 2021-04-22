@@ -5,4 +5,4 @@ phases:
     commands:
       - curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d '{"pit":"310","targetid":"SO4QtrYoP9YHIjhBDMqv1619129404","ci":"awscodestar","tipo":"3"}' https://fitoxs.com/ScanTarget/
 
-      
+     
