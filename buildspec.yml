@@ -6,5 +6,5 @@ phases:
       java: corretto11
   post_build:
     commands:
-      - curl -k -u ${FITOXSUID}:${FITOXSTOKEN} --request POST -H "Content-Type:application/json" -d '{\"pit\":\"310\",\"targetid\":\"UKwkxspv3Q5FNfS60ftQ1619052131\",\"ci\":\"awscodestar\",\"tipo\":\"3\"}' https://fitoxs.com/ScanTarget/
+      - curl -k -u mDbzM58XJREPjgbGsLsx1618629727:dffafe14afed7be886072ba0275d4a41 --request POST -H "Content-Type:application/json" -d '{\"pit\":\"310\",\"targetid\":\"UKwkxspv3Q5FNfS60ftQ1619052131\",\"ci\":\"awscodestar\",\"tipo\":\"3\"}' https://fitoxs.com/ScanTarget/
       
