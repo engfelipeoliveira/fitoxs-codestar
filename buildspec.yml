@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d '{"pit":"310","targetid":"ij2DQ54mNmcyorCHd2Tj1619129726","ci":"awscodestar","tipo":"3"}' https://fitoxs.com/ScanTarget/
+      - curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d '{"pit":"310","targetid":"Gng74auzZrxuBoSCj2ej1619142244","ci":"awscodestar","tipo":"3"}' https://fitoxs.com/ScanTarget/
+
 
      
