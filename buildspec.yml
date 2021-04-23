@@ -3,4 +3,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d '{"pit":"310","targetid":"3TCZJCzuU4Ac6cYIacpf1619191792","ci":"awscodestar","tipo":"3"}' https://fitoxs.com/ScanTarget/
+      - 
